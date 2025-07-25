@@ -1,0 +1,27 @@
+### Node / Vite / React ###
+node_modules/
+.env*
+.DS_Store
+
+# Salida de construcción
+/dist/
+
+# Archivos de logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor / SO
+.idea/
+.vscode/
+Thumbs.db
+
+# MacOS
+.DS_Store
+
+# Tests y coverage
+after-test/
+coverage/
+
+# Archivos generados por gh-pages
+/.gh-pages/ 
