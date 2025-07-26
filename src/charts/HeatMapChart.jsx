@@ -2,7 +2,7 @@ import { ResponsiveTreeMap } from '@nivo/treemap';
 import { Box, Typography } from '@mui/material';
 import { numberFormat } from "../utils/numberFormat";
 
-const HeatmapChart = ({ data }) => {
+const HeatMapChart = ({ data }) => {
   if (!data?.children?.length) return null;
 
   return (
@@ -50,4 +50,4 @@ const HeatmapChart = ({ data }) => {
   );
 };
 
-export default HeatmapChart; 
+export default HeatMapChart; 

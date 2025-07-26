@@ -10,7 +10,7 @@ const BarStackedChart = React.lazy(() => import("../charts/BarStackedChart"));
 const HistogramChart = React.lazy(() => import("../charts/HistogramChart"));
 const BoxPlotChart = React.lazy(() => import("../charts/BoxPlotChart"));
 const PieChart = React.lazy(() => import("../charts/PieChart"));
-const HeatmapChart = React.lazy(() => import("../charts/HeatmapChart"));
+const HeatMapChart = React.lazy(() => import("../charts/HeatMapChart"));
 const ScatterChart = React.lazy(() => import("../charts/ScatterChart"));
 const RamBarChart = React.lazy(() => import("../charts/RamBarChart"));
 const StoragePieChart = React.lazy(() => import("../charts/StoragePieChart"));
